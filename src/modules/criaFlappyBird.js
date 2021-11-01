@@ -2,9 +2,9 @@ export function criaFlappyBird() {
   const canvas = document.querySelector('canvas');
   const contexto = canvas.getContext('2d');
   const sprites = new Image();
-  sprites.src = './sprites.png';
+  sprites.src = './src/images/sprites.png';
   const somHIT = new Audio()
-  somHIT.src = './efeitos/hit.wav'
+  somHIT.src = './src/efeitos/hit.wav'
 
 
   const flappyBird = {

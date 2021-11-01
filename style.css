@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  zoom: 1.1;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  margin-top: 40px;
+}
+
+body h1 {
+  color: #1f1f1f;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FFC700;
+}
+
+body canvas {
+  display: block;
+  margin: 40px;
+
+  border-radius: 10px;
+}

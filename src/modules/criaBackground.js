@@ -2,7 +2,7 @@ export function criaBackground() {
   const canvas = document.querySelector('canvas');
   const contexto = canvas.getContext('2d');
   const sprites = new Image();
-  sprites.src = './sprites.png';
+  sprites.src = './src/images/sprites.png';
 
   const background = {
     spriteX: 390,
